@@ -2,8 +2,6 @@ package it.polito.tdp.model;
 
 import com.javadocmd.simplelatlng.LatLng;
 
-import it.polito.tdp.db.EventsDao;
-
 public class Agente {
 	private int velocità=60;
 	private boolean disponibile;
@@ -14,8 +12,8 @@ public class Agente {
 	public int getVelocità() {
 		return velocità;
 	}
-	public void setVelocità(int velocità) {
-		this.velocità = velocità;
+	public void setVelocità(int vel) {
+		this.velocità = vel;
 	}
 	public boolean isDisponibile() {
 		return disponibile;
